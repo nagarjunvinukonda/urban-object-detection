@@ -70,6 +70,12 @@ In conclusion, the model selection process revealed that each model has unique s
 Here are the training losses of the 3 experiments:
 ![](outputs_media/loss.png)
 
+Only EfficientNet:
+![efficientNet Loss](https://github.com/nagarjunvinukonda/urban-object-detection/blob/main/model1-efficientNet-default-training/loss.png)
+
+Only MobileNet:
+![MobileNet Loss](https://github.com/nagarjunvinukonda/urban-object-detection/blob/main/model2-ssd-mobileNet/loss.png)
+
 The plots show that the 3 models could achieve better loss if we increased the n. of training steps because there is room for convergence.
 
 ## Future Work & Possible Improvement
